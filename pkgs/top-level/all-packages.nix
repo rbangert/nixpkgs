@@ -140,6 +140,8 @@ with pkgs;
 
   nix-update-script = callPackage ../common-updater/nix-update.nix { };
 
+  feather-icons = callPackage ../data/icons/feather-icons/default.nix { };
+
   ### Push NixOS tests inside the fixed point
 
   # See also allTestsForSystem in nixos/release.nix
